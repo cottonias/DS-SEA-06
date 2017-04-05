@@ -6,15 +6,20 @@
 
 **Answer** The file represents customer food orders from Chipotle. The columns break out the descriptions for the orders and each row describes a single item that was ordered and the associated details for that item.
 
-2. How many orders do there appear to be?   **Answer** There appears to be 1834 orders.
-3. How many lines are in this file?		**Answer** orders go up to 4624, but the count is 4622 (df.describe() see line 13)
-4. Which burrito is more popular, steak or chicken? **Answer** Chicken was more popular (553) than steak (368). See line 19.
-5. Do chicken burritos more often have black beans or pinto beans? **Answer** Black beans (282 vs 105 for black beans). See lines 21-28.
+2. How many orders do there appear to be?
+**Answer** There appears to be 1834 orders.
+3. How many lines are in this file?
+*Answer** orders go up to 4624, but the count is 4622 (df.describe() see line 13)
+4. Which burrito is more popular, steak or chicken?
+**Answer** Chicken was more popular (553) than steak (368). See line 19.
+5. Do chicken burritos more often have black beans or pinto beans?
+**Answer** Black beans (282 vs 105 for pinto beans). See lines 21-28.
 6. Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-3). repo (using a single command). You will be working on your local repo on your laptop.  Think about how wildcard characters can help you with this task.
 **Answer** In a Linux/winGW window such as from Git Bash, enter the following command from the root of the dir for the class:
 	find . -name "*.tsv" -o -name "*.csv"
 
 Here is the result (note that at least one file has been added by me "test.csv"):
+
 	./data/airlines.csv
 	./data/Airline_on_time_west_coast.csv
 	./data/bank-additional.csv
