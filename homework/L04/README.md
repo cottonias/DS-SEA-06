@@ -1,6 +1,7 @@
 # DS-SEA-06
 ## General Assembly Data Science class
 #### Lesson 4 Answers
+##### The first portion of this assignment will be referencing "04_chipotle_MC.py" when giving lines of code for showing work
 
 1. Look at the head and the tail of **chipotle.tsv** in the **data** subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
 
@@ -9,7 +10,7 @@
 2. How many orders do there appear to be?
 **Answer** There appears to be 1834 orders.
 3. How many lines are in this file?
-*Answer** orders go up to 4624, but the count is 4622 (df.describe() see line 13)
+**Answer** orders go up to 4624, but the count is 4622 (df.describe() see line 13)
 4. Which burrito is more popular, steak or chicken?
 **Answer** Chicken was more popular (553) than steak (368). See line 19.
 5. Do chicken burritos more often have black beans or pinto beans?
