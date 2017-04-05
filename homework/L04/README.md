@@ -58,6 +58,6 @@ Result: 90
 8. **Optional:** Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
 **Answer** cut -f1,1 chipotle.tsv | sed -n '1!p' | uniq -c
 
-The code above cuts out only the first column which is the order_id (cut) pipes that to clip off the top row "order_id" (sed) and pipes that to count the how many times each number appeared. This makes it easy to see that most orders were single digit and the largest order was for 23 items (order 926)
+The code above cuts out only the first column which is the order_id (cut) pipes that to clip off the top row "order_id" (sed) and pipes that to count the how many times each number appeared (uniq). This makes it easy to see that most orders were single digit and the largest order was for 23 items (order 926)
 
 
