@@ -1,4 +1,4 @@
-####What is the question you hope to answer?
+#### What is the question you hope to answer?
 Can the data used for predicting the likelyhood of new state-led mass killings for a country in a given year be used to predict the likely severity of violent conflicts in the following year? Specifically, can a model be created to predict likelyhood of severe mass killings (>100,000 people of a targeted group) and what countries would this model predict to be the most likely to have severe mass killings in 2011?
 ####What data are you planning to use to answer that question?
 Data has been agregated from multiple sources by the Early Wanring Project. Data up to the end of 2014 is available from this project in a GitHub repo [here](https://github.com/EarlyWarningProject/2015-Statistical-Risk-Assessment). This data has also been cloned and made available in the following directory: "source\2015-Statistical-Risk-Assessment-master".
