@@ -1,0 +1,20 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="mkl_ongoing <= 0.5\nmse = 0.0124\nsamples = 9152\nvalue = 0.0126"] ;
+1 [label="mse = 0.0\nsamples = 7734\nvalue = 0.0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="countryage_ln <= 0.3466\nmse = 0.0745\nsamples = 1418\nvalue = 0.0811"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="wdi_popsize_ln <= 10.2175\nmse = 0.1156\nsamples = 15\nvalue = 0.8667"] ;
+2 -> 3 ;
+4 [label="mse = 0.0663\nsamples = 14\nvalue = 0.9286"] ;
+3 -> 4 ;
+5 [label="mse = 0.0\nsamples = 1\nvalue = 0.0"] ;
+3 -> 5 ;
+6 [label="pol_durable_ln <= 0.3466\nmse = 0.0674\nsamples = 1403\nvalue = 0.0727"] ;
+2 -> 6 ;
+7 [label="mse = 0.1581\nsamples = 259\nvalue = 0.1969"] ;
+6 -> 7 ;
+8 [label="mse = 0.0426\nsamples = 1144\nvalue = 0.0446"] ;
+6 -> 8 ;
+}
